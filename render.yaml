@@ -4,9 +4,10 @@ services:
   - type: web
     name: xpected
     runtime: node
-    # «starter» queda siempre encendido (necesario para congelar pronósticos antes de cada partido y para el
-    # historial). Con «free» funciona, pero se apaga tras 15 minutos sin visitas y pierde lo guardado al reiniciar.
-    plan: starter
+    # Plan gratuito para probar: se apaga tras 15 minutos sin visitas (tarda ~1 minuto en despertar), no congela
+    # pronósticos mientras duerme y, sin disco, vuelve a los datos iniciales de lib/seed/ en cada reinicio.
+    # Para dejarlo siempre encendido y guardar el historial: plan «starter» y el bloque «disk» (ver docs/despliegue.md).
+    plan: free
     region: virginia
     buildCommand: node --version
     startCommand: node server.js
@@ -18,8 +19,5 @@ services:
       # (ESPN), déjala puesta para que el sitio no sea público.
       - key: XPECTED_PASSWORD
         sync: false
-    # Disco para que el historial de pronósticos y el del laboratorio sobrevivan a reinicios y nuevas versiones
-    disk:
-      name: xpected-data
-      mountPath: /opt/render/project/src/data
-      sizeGB: 1
+    # (El plan gratuito no admite disco. Con «starter», agrega aquí:
+    #   disk: { name: xpected-data, mountPath: /opt/render/project/src/data, sizeGB: 1 })
