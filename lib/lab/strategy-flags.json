@@ -1,0 +1,435 @@
+{
+ "note": "Todas nacen en «educativa». Solo tools/lab-backtest.js puede pasarlas a «publicada» si mejoran en la prueba histórica.",
+ "strategies": {
+  "1": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "publicada",
+    "eng.1": "publicada",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "media",
+    "eng.1": "media",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {},
+   "stats": {
+    "col.1": {
+     "n": 381
+    },
+    "eng.1": {
+     "n": 100
+    },
+    "esp.1": {
+     "n": 119
+    },
+    "conmebol.libertadores": {
+     "n": 77
+    },
+    "uefa.champions": {
+     "n": 36
+    }
+   }
+  },
+  "2": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {},
+   "stats": {
+    "col.1": {
+     "n": 381
+    },
+    "eng.1": {
+     "n": 100
+    },
+    "esp.1": {
+     "n": 119
+    },
+    "conmebol.libertadores": {
+     "n": 77
+    },
+    "uefa.champions": {
+     "n": 36
+    }
+   }
+  },
+  "3": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {
+    "eng.1": "La fuente solo trae 99 partidos con alineación: pocos para calificar jugadores",
+    "esp.1": "La fuente solo trae 119 partidos con alineación: pocos para calificar jugadores",
+    "conmebol.libertadores": "La fuente solo trae 0 partidos con alineación: pocos para calificar jugadores",
+    "uefa.champions": "La fuente solo trae 0 partidos con alineación: pocos para calificar jugadores"
+   },
+   "stats": {
+    "col.1": {
+     "n": 329
+    },
+    "eng.1": {
+     "n": null
+    },
+    "esp.1": {
+     "n": null
+    },
+    "conmebol.libertadores": {
+     "n": null
+    },
+    "uefa.champions": {
+     "n": null
+    }
+   }
+  },
+  "4": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "publicada",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "media",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {
+    "conmebol.libertadores": "Pocos partidos para entrenar",
+    "uefa.champions": "Pocos partidos para entrenar"
+   },
+   "stats": {
+    "col.1": {
+     "n": 381
+    },
+    "eng.1": {
+     "n": 100
+    },
+    "esp.1": {
+     "n": 119
+    },
+    "conmebol.libertadores": {
+     "n": null
+    },
+    "uefa.champions": {
+     "n": null
+    }
+   }
+  },
+  "5": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {
+    "eng.1": "Liga sin diferencias de altura conocidas entre sedes",
+    "esp.1": "Liga sin diferencias de altura conocidas entre sedes",
+    "conmebol.libertadores": "Solo 54 partidos con diferencia de altura: pocos para estimar el efecto",
+    "uefa.champions": "Liga sin diferencias de altura conocidas entre sedes"
+   },
+   "stats": {
+    "col.1": {
+     "n": 381
+    },
+    "eng.1": {
+     "n": null
+    },
+    "esp.1": {
+     "n": null
+    },
+    "conmebol.libertadores": {
+     "n": null
+    },
+    "uefa.champions": {
+     "n": null
+    }
+   }
+  },
+  "6": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {
+    "conmebol.libertadores": "Sin datos suficientes para la prueba",
+    "uefa.champions": "Sin datos suficientes para la prueba"
+   },
+   "stats": {
+    "col.1": {
+     "n": 3429
+    },
+    "eng.1": {
+     "n": 900
+    },
+    "esp.1": {
+     "n": 1071
+    }
+   }
+  },
+  "7": {
+   "status": "educativa",
+   "leagues": {},
+   "lights": {},
+   "why": {
+    "general": "La fuente actual trae una sola casa: un movimiento fuerte exige 3 o más casas moviéndose a la vez. Sin porcentaje de apuestas del público tampoco hay movimiento inverso."
+   },
+   "stats": {}
+  },
+  "8": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "publicada",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "baja",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {
+    "conmebol.libertadores": "Sin suficientes cuotas de apertura y cierre",
+    "uefa.champions": "Sin suficientes cuotas de apertura y cierre"
+   },
+   "stats": {
+    "col.1": {
+     "n": 132,
+     "dirHit": 0.546,
+     "dirN": 229
+    },
+    "eng.1": {
+     "n": 40,
+     "dirHit": 0.5,
+     "dirN": 66
+    },
+    "esp.1": {
+     "n": 48,
+     "dirHit": 0.718,
+     "dirN": 110
+    },
+    "conmebol.libertadores": {
+     "n": null
+    },
+    "uefa.champions": {
+     "n": null
+    }
+   }
+  },
+  "9": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "publicada",
+    "eng.1": "educativa",
+    "esp.1": "publicada",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "media",
+    "eng.1": "educativa",
+    "esp.1": "baja",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {},
+   "stats": {
+    "col.1": {
+     "n": 381
+    },
+    "eng.1": {
+     "n": 100
+    },
+    "esp.1": {
+     "n": 119
+    },
+    "conmebol.libertadores": {
+     "n": 77
+    },
+    "uefa.champions": {
+     "n": 36
+    }
+   }
+  },
+  "10": {
+   "status": "apagada",
+   "why": {
+    "general": "La app aún no integra datos de baloncesto (NBA)."
+   },
+   "leagues": {},
+   "lights": {},
+   "stats": {}
+  },
+  "11": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {},
+   "stats": {
+    "col.1": {
+     "n": 381
+    },
+    "eng.1": {
+     "n": 100
+    },
+    "esp.1": {
+     "n": 119
+    },
+    "conmebol.libertadores": {
+     "n": 77
+    },
+    "uefa.champions": {
+     "n": 32
+    }
+   }
+  },
+  "12": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "educativa",
+    "eng.1": "educativa",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {},
+   "stats": {
+    "col.1": {
+     "n": 165
+    },
+    "eng.1": {
+     "n": 50
+    },
+    "esp.1": {
+     "n": 60
+    },
+    "conmebol.libertadores": {
+     "n": null
+    },
+    "uefa.champions": {
+     "n": null
+    }
+   }
+  },
+  "13": {
+   "status": "educativa",
+   "leagues": {
+    "col.1": "publicada",
+    "eng.1": "publicada",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "lights": {
+    "col.1": "media",
+    "eng.1": "media",
+    "esp.1": "educativa",
+    "conmebol.libertadores": "educativa",
+    "uefa.champions": "educativa"
+   },
+   "why": {
+    "esp.1": "Usa la fuerza en el tiempo, que aún no se publica en esta liga",
+    "conmebol.libertadores": "Sin datos suficientes para la prueba",
+    "uefa.champions": "Sin datos suficientes para la prueba"
+   },
+   "stats": {
+    "col.1": {
+     "n": 10000
+    },
+    "eng.1": {
+     "n": 10000
+    },
+    "esp.1": {
+     "n": 10000
+    }
+   }
+  },
+  "14": {
+   "status": "educativa",
+   "leagues": {},
+   "lights": {},
+   "why": {
+    "general": "Herramienta de decisión: no produce probabilidades que calificar. Se publicará cuando el historial de selecciones de valor tenga al menos 300 calificadas."
+   },
+   "stats": {}
+  }
+ },
+ "updatedAt": "2026-11-09T00:18:49.563Z"
+}

@@ -1,0 +1,25 @@
+# Xpected · plano de Render (https://render.com): «New → Blueprint» y elegir este repositorio.
+# Guía paso a paso: docs/despliegue.md
+services:
+  - type: web
+    name: xpected
+    runtime: node
+    # «starter» queda siempre encendido (necesario para congelar pronósticos antes de cada partido y para el
+    # historial). Con «free» funciona, pero se apaga tras 15 minutos sin visitas y pierde lo guardado al reiniciar.
+    plan: starter
+    region: virginia
+    buildCommand: node --version
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      # Contraseña de acceso. Render la pide al crear el servicio; mientras los datos sean solo de desarrollo
+      # (ESPN), déjala puesta para que el sitio no sea público.
+      - key: XPECTED_PASSWORD
+        sync: false
+    # Disco para que el historial de pronósticos y el del laboratorio sobrevivan a reinicios y nuevas versiones
+    disk:
+      name: xpected-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

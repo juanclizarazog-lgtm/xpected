@@ -1,0 +1,7 @@
+# nunca dentro de la imagen
+.env
+.git
+node_modules
+dist
+# datos que se generan al correr (el servidor parte de lib/seed/)
+data

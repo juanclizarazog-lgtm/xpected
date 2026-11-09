@@ -1,0 +1,22 @@
+{
+ "source": "Altitud aproximada del casco urbano de cada ciudad sede, en metros sobre el nivel del mar, tomada de referencias geográficas públicas (artículo de cada ciudad en Wikipedia y atlas generales). El estadio puede diferir ±50 m. Valores de referencia cargados una vez el 8 nov 2026; antes de producción deben verificarse contra IGAC (Colombia) y los institutos geográficos de cada país. La ciudad sale del campo «venue.address.city» de ESPN.",
+ "effectSource": "McSharry (2007), BMJ 335:1278: en 1.460 partidos internacionales en Sudamérica, los equipos de altura anotan más y reciben menos frente a rivales del llano. En la app el efecto se estima con los propios partidos de cada liga (lib/lab/strength.js · altitudeFit).",
+ "cities": {
+  "Bogota": { "m": 2640 }, "Zipaquira": { "m": 2650 }, "Soacha": { "m": 2565 }, "Tunja": { "m": 2810 }, "Pasto": { "m": 2527 },
+  "Manizales": { "m": 2160 }, "Rionegro": { "m": 2125 }, "Popayan": { "m": 1737 }, "Envigado": { "m": 1575 }, "Itagui": { "m": 1550 },
+  "Medellin": { "m": 1495 }, "Bello": { "m": 1450 }, "Armenia": { "m": 1483 }, "Pereira": { "m": 1411 }, "Ibague": { "m": 1285 },
+  "Cali": { "m": 1018 }, "Palmira": { "m": 1001 }, "Tulua": { "m": 960 }, "Bucaramanga": { "m": 959 }, "Floridablanca": { "m": 925 },
+  "Villavicencio": { "m": 467 }, "Neiva": { "m": 442 }, "Yopal": { "m": 350 }, "Cucuta": { "m": 320 }, "Valledupar": { "m": 169 },
+  "Quibdo": { "m": 43 }, "Sincelejo": { "m": 213 }, "Monteria": { "m": 18 }, "Barranquilla": { "m": 18 }, "Santa Marta": { "m": 2 }, "Cartagena": { "m": 2 },
+  "Quito": { "m": 2850 }, "Riobamba": { "m": 2754 }, "Ambato": { "m": 2577 }, "Cuenca": { "m": 2560 }, "Guayaquil": { "m": 4 }, "Manta": { "m": 6 },
+  "La Paz": { "m": 3640 }, "El Alto": { "m": 4090 }, "Oruro": { "m": 3735 }, "Potosi": { "m": 3960 }, "Sucre": { "m": 2810 }, "Cochabamba": { "m": 2558 }, "Santa Cruz de la Sierra": { "m": 416 },
+  "Cusco": { "m": 3399 }, "Juliaca": { "m": 3825 }, "Huancayo": { "m": 3259 }, "Arequipa": { "m": 2335 }, "Lima": { "m": 154 }, "Callao": { "m": 5 },
+  "Calama": { "m": 2260 }, "Santiago": { "m": 570 }, "Valparaiso": { "m": 10 }, "Vina del Mar": { "m": 10 }, "Concepcion": { "m": 12 }, "Coquimbo": { "m": 20 },
+  "Buenos Aires": { "m": 25 }, "Avellaneda": { "m": 25 }, "La Plata": { "m": 26 }, "Rosario": { "m": 25 }, "Cordoba": { "m": 390 }, "Mendoza": { "m": 746 }, "Santa Fe": { "m": 20 },
+  "Sao Paulo": { "m": 760 }, "Braganca Paulista": { "m": 817 }, "Rio de Janeiro": { "m": 5 }, "Porto Alegre": { "m": 10 }, "Belo Horizonte": { "m": 852 }, "Curitiba": { "m": 934 },
+  "Fortaleza": { "m": 21 }, "Salvador": { "m": 8 }, "Recife": { "m": 4 }, "Goiania": { "m": 749 },
+  "Asuncion": { "m": 43 }, "Montevideo": { "m": 43 }, "Caracas": { "m": 900 }, "Barquisimeto": { "m": 566 }, "Merida": { "m": 1600 },
+  "Pedro Juan Caballero": { "m": 230 }, "San Cristobal": { "m": 825 }, "Valencia": { "m": 479 }, "Rancagua": { "m": 500 }, "Talcahuano": { "m": 10 },
+  "Mirassol": { "m": 590 }, "Santa Cruz": { "m": 416 }, "Magdalena": { "m": 2, "note": "ESPN da el departamento; Unión Magdalena juega en Santa Marta" }
+ }
+}

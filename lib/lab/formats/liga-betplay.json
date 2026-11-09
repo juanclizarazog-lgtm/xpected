@@ -1,0 +1,9 @@
+﻿{
+ "lg": "col.1", "slug": "liga-betplay", "name": "Liga BetPlay 2026-II", "type": "col-cuadrangulares",
+ "rounds": 19, "playoff": 8, "bottom": 2,
+ "topLabel": "Clasifica a cuadrangulares (8 primeros)", "finalLabel": "Llega a la final", "bottomLabel": "Desciende (tabla del promedio)",
+ "tiebreak": "gd",
+ "rules": "19 fechas de todos contra todos; los 8 primeros pasan a dos cuadrangulares de 4 equipos, ida y vuelta; los ganadores de grupo juegan la final de ida y vuelta (empate global: penales, 50/50). Descienden los 2 peores en la tabla del promedio: puntos ÷ partidos de la fase de todos contra todos de las últimas tres temporadas.",
+ "assumptions": "Grupos: 1.º y 2.º son cabezas; 3.º-4.º, 5.º-6.º y 7.º-8.º se reparten por sorteo (costumbre de la Dimayor; la nota citada no detalla el sorteo). Sin bonificaciones. Equipos ascendidos: promedio solo con sus temporadas en primera.",
+ "source": "Noticias Caracol, «Todo lo que debe saber de la Liga BetPlay II-2026» (formato, 19 fechas, cuadrangulares y final); Vanguardia, tabla del descenso (solo suma la fase de todos contra todos)."
+}

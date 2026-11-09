@@ -1,0 +1,7 @@
+﻿{
+ "lg": "esp.1", "slug": "laliga", "name": "LaLiga", "type": "league",
+ "top": 4, "topLabel": "Entre los 4 primeros (Champions)", "bottom": 3, "bottomLabel": "Desciende (3 últimos)",
+ "tiebreak": "h2h",
+ "rules": "Todos contra todos a dos vueltas (38 fechas). Orden: puntos, enfrentamiento directo (puntos y diferencia), diferencia de gol, goles a favor.",
+ "source": "Reglamento General de la RFEF / LaLiga, criterios de desempate (art. 201)."
+}

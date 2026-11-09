@@ -1,0 +1,197 @@
+{
+ "savedAt": "2026-11-08T16:17:27.336Z",
+ "initialBundleBytes": 464268,
+ "bundle": [
+  "index.html",
+  "assets/css/styles.css",
+  "assets/css/experience.css",
+  "assets/js/app.js",
+  "assets/js/audio.js",
+  "assets/js/components.js",
+  "assets/js/core.js",
+  "assets/js/data.js",
+  "assets/js/feed.js",
+  "assets/js/fx.js",
+  "assets/js/icons.js",
+  "assets/js/pages-info.js",
+  "assets/js/pages-main.js",
+  "assets/js/pages-markets.js",
+  "assets/js/pages-tools.js",
+  "assets/js/quant.js",
+  "assets/js/slip.js",
+  "assets/js/stage3d.js",
+  "assets/js/three-scenes.js"
+ ],
+ "files": {
+  "assets/css/experience.css": {
+   "sha256": "af9d7f487b4a70edeb3492d768e51f8402cae0605d853c7f802e3d33b1515efc",
+   "bytes": 61433,
+   "lines": 588
+  },
+  "assets/css/styles.css": {
+   "sha256": "e3f428107479761872846d47aaf21a3543c55c85f5102325a8e7a197233d7e6d",
+   "bytes": 50623,
+   "lines": 632
+  },
+  "assets/js/app.js": {
+   "sha256": "15433673f892bfc715710eeea7f8604e0cab174bd41ee1ed37e3aeb1425f3550",
+   "bytes": 23069,
+   "lines": 344
+  },
+  "assets/js/audio.js": {
+   "sha256": "55921b168b5cac05c77e5593c4c34c37b15e1bac230462261348e843be81bf52",
+   "bytes": 9338,
+   "lines": 210
+  },
+  "assets/js/components.js": {
+   "sha256": "fae3ccf42e57cb1709e83a8956fa10f969b292864e7c32e785de97ab94f9d278",
+   "bytes": 35529,
+   "lines": 488
+  },
+  "assets/js/core.js": {
+   "sha256": "1d35c0eb47d15caf9e88ab1f23258f866a83a733a128c41f3c5f0799e70dd02e",
+   "bytes": 9522,
+   "lines": 187
+  },
+  "assets/js/data.js": {
+   "sha256": "4892ad3038c5cfb8478467554c979d081ded9ced8950de326d53025c40a36527",
+   "bytes": 41807,
+   "lines": 709
+  },
+  "assets/js/feed.js": {
+   "sha256": "2e05d5c5c69960ce7b45a850ab1b73a6d67143c2d80a856ec1ccce2c3da8e5d3",
+   "bytes": 3532,
+   "lines": 83
+  },
+  "assets/js/fx.js": {
+   "sha256": "983ce010a18e7f0c42f12c67672ac88cd490c48c3d928f53a0ad8bfe5c49d12e",
+   "bytes": 18036,
+   "lines": 279
+  },
+  "assets/js/icons.js": {
+   "sha256": "2a5bca21fa930152216ad9fa51eefd39031a7a0a0ec3514ae40e8c9a3508c074",
+   "bytes": 4740,
+   "lines": 53
+  },
+  "assets/js/pages-info.js": {
+   "sha256": "6cd0faac9bf20c98661a3e15a41bcd493b83672219f8d881d86a4c1a5fe1281e",
+   "bytes": 20301,
+   "lines": 211
+  },
+  "assets/js/pages-main.js": {
+   "sha256": "c492885df1e4ed595e72d79b9ee8b496e7a90a3f90ded11d7df7e0abf248fede",
+   "bytes": 55751,
+   "lines": 707
+  },
+  "assets/js/pages-markets.js": {
+   "sha256": "d3d4ea8cf9fc0c9b83e7beb53f93d91d11d70c8e9417d0eef4ad34ccd992b727",
+   "bytes": 8664,
+   "lines": 98
+  },
+  "assets/js/pages-tools.js": {
+   "sha256": "ff34f8b4a323febceee7129d08cb2a817309146b97c54beccc0f565fc04b5915",
+   "bytes": 25577,
+   "lines": 246
+  },
+  "assets/js/quant.js": {
+   "sha256": "6ad6bc930364cdb2d78722cc4ec46114ee7cdc057097f73205ad6497701ac39d",
+   "bytes": 13950,
+   "lines": 339
+  },
+  "assets/js/slip.js": {
+   "sha256": "92d3039e686599760b6486f880114668d796e8229a9df50a657c5df757a29c07",
+   "bytes": 10348,
+   "lines": 167
+  },
+  "assets/js/stage3d.js": {
+   "sha256": "2f7099851b73ba54abdbfd25fdb98361cb0c9069c73629eed0bfe92f19e954ea",
+   "bytes": 38184,
+   "lines": 628
+  },
+  "assets/js/three-scenes.js": {
+   "sha256": "14b3688ff34a13618cf64607295f74d30098e60414ccd6d5d35c0e95a60555a7",
+   "bytes": 24342,
+   "lines": 440
+  },
+  "CLAUDE.md": {
+   "sha256": "1cf207851b18cd36b053fe1399a606b6a81b7f9a6df7080f935b91a58e2b0769",
+   "bytes": 983,
+   "lines": 17
+  },
+  "docs/copy-rules.md": {
+   "sha256": "13f017a737d0d16a0c8420ab8cdaa3d09f87e49baf403ecbc6773e205c435d67",
+   "bytes": 778,
+   "lines": 15
+  },
+  "docs/data-licenses.md": {
+   "sha256": "1cbed454622bc104de211d8239c9d3ee4467b9630299edb42619e401249e448f",
+   "bytes": 1525,
+   "lines": 16
+  },
+  "docs/plan-fase-6.md": {
+   "sha256": "882cb1f356c2f45c9e0da8e4c4e9d7c94510f49e37e2eede50f69d2e1ef86ec7",
+   "bytes": 39746,
+   "lines": 502
+  },
+  "docs/plan.md": {
+   "sha256": "fe2c979ee31a7f32ab8e48bddc7b7c44850b5c884ea4d1534e4b38f990346f36",
+   "bytes": 72257,
+   "lines": 843
+  },
+  "index.html": {
+   "sha256": "01f2b52deb52caaae476addfb9a8445c11c76f5c4bb2a3b2669ad236d0f95ea2",
+   "bytes": 9522,
+   "lines": 126
+  },
+  "lib/espn.js": {
+   "sha256": "4e1b4b060c9c22afdbea4e5a52209380a56558f1cb155d918a7f9aaad04a3e15",
+   "bytes": 10442,
+   "lines": 191
+  },
+  "lib/model.js": {
+   "sha256": "bd5b9f556095c5873e0add2bac20e166288da97f4d8bb0aae7fe268f753bc967",
+   "bytes": 8049,
+   "lines": 160
+  },
+  "lib/track.js": {
+   "sha256": "a977026d0ba88fad1efb3e437424c3d96e93de2740ad4570547ee72e961b9be4",
+   "bytes": 5506,
+   "lines": 103
+  },
+  "README.md": {
+   "sha256": "442ba4b13e388aaf9e812c624d44d988cb226c6f2798ef421cae370755a6591a",
+   "bytes": 9978,
+   "lines": 161
+  },
+  "server.js": {
+   "sha256": "e3741dd8a4565078b6fd7f079c95bef593fcaba10464270e9a270909aa5f1121",
+   "bytes": 21039,
+   "lines": 395
+  },
+  "tests/model.test.js": {
+   "sha256": "19bb0a399ff74e6833e6fdc36089462fee719cb9fc748d4700097b2e5791a160",
+   "bytes": 12059,
+   "lines": 135
+  },
+  "tests/quant.test.js": {
+   "sha256": "1f800b1624fa510a4e644f2fb5743b1a52bcb0524a69fa0952be9c2761cb6005",
+   "bytes": 4575,
+   "lines": 87
+  },
+  "tests/test-vectors.json": {
+   "sha256": "cebb7b051bc60f23487f5b108f0ff48b7aa1b570ff5517bb0a4e1676dc6d93c9",
+   "bytes": 1223,
+   "lines": 40
+  },
+  "tools/lint-copy.js": {
+   "sha256": "e092a3f51def4f1eaeb89b20b7efd54432333631ee8a8fdd2a9f378144dbc8cc",
+   "bytes": 1957,
+   "lines": 35
+  },
+  "tools/verify-live.js": {
+   "sha256": "213a0b56bb50a987b026df398b3bfd7e7e0c7bb788aaaf0b40232cd6b299d882",
+   "bytes": 7294,
+   "lines": 105
+  }
+ }
+}

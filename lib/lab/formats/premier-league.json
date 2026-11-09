@@ -1,0 +1,7 @@
+﻿{
+ "lg": "eng.1", "slug": "premier-league", "name": "Premier League", "type": "league",
+ "top": 4, "topLabel": "Entre los 4 primeros (Champions)", "bottom": 3, "bottomLabel": "Desciende (3 últimos)",
+ "tiebreak": "gd",
+ "rules": "Todos contra todos a dos vueltas (38 fechas). Orden: puntos, diferencia de gol, goles a favor. Campeón: el primero.",
+ "source": "Reglamento de la Premier League (Section C). Los cupos extra a la Champions por rendimiento europeo no se simulan."
+}

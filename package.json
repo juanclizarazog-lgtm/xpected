@@ -1,0 +1,17 @@
+{
+  "name": "xpected",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Xpected: probabilidades deportivas honestas, cuotas en vivo y Laboratorio de herramientas avanzadas (MVP de desarrollo, 18+).",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo",
+    "test": "node tests/quant.test.js && node tests/model.test.js && node tests/lab.test.js && node tools/lint-copy.js",
+    "verificar": "node tools/verify-live.js && node tools/verify-lab.js",
+    "historial": "node lib/lab/history.js",
+    "prueba-historica": "node tools/lab-backtest.js",
+    "no-regresion": "node tools/lab-baseline.js check"
+  }
+}

@@ -1,0 +1,48 @@
+XPECTED · Probabilidades deportivas honestas (versión 1.0 de desarrollo · solo mayores de 18 años)
+===================================================================================================
+
+QUÉ ES
+  Una app web que muestra la probabilidad de cada partido (Liga BetPlay, Premier League, LaLiga,
+  Champions y Libertadores), la compara con la cuota de una casa de referencia, se actualiza en vivo
+  y guarda un historial público de sus pronósticos. Incluye el Laboratorio: 14 herramientas avanzadas
+  explicadas en palabras simples y un simulador de temporada.
+  Es un servicio informativo: no recibe apuestas, no maneja dinero y no enlaza a casas de apuestas.
+
+QUÉ NECESITAS
+  Node.js 18 o superior (gratis): https://nodejs.org  · No hay que instalar nada más.
+  Conexión a internet (los datos de los partidos se leen en vivo).
+
+CÓMO ABRIRLA
+  Windows ......... doble clic en  iniciar.bat
+  macOS / Linux ... en una terminal, dentro de esta carpeta:  sh iniciar.sh
+  Cualquier sistema: en una terminal, dentro de esta carpeta:  node server.js
+  Luego abre en el navegador:  http://localhost:5173
+  Para cerrarla, cierra la ventana negra (o Ctrl+C en la terminal).
+
+LA PRIMERA VEZ
+  El historial del Laboratorio ya viene incluido (data/lab/). El servidor lo pone al día solo cada
+  6 horas y después de cada partido terminado. Si lo borras, se descarga de nuevo (unos minutos).
+
+COMPROBAR QUE TODO FUNCIONA (opcional, en una terminal dentro de esta carpeta)
+  npm test             pruebas de todos los cálculos y del texto (no hace falta el servidor)
+  npm run verificar    con la app abierta: compara los datos y las estadísticas con la fuente original
+  npm run prueba-historica   vuelve a probar las herramientas del Laboratorio con partidos pasados (~30 s)
+
+PUBLICARLA EN INTERNET (versión completa, con datos reales)
+  Sigue docs/despliegue.md: sube la carpeta a GitHub (repositorio privado) y créala en Render con el archivo
+  render.yaml, o usa el Dockerfile en cualquier hosting. Ponle contraseña (XPECTED_PASSWORD) mientras los datos
+  sean solo de desarrollo.
+
+IMPORTANTE
+  · Los datos vienen de los marcadores públicos de ESPN y se usan solo en desarrollo. Antes de publicar
+    la app hay que contratar un proveedor con licencia (ver docs/data-licenses.md).
+  · Las probabilidades son estimaciones con incertidumbre, no promesas. Apostar puede generar adicción.
+    Ayuda: Coljuegos (https://www.coljuegos.gov.co) y la sección «Juego responsable» de la app.
+  · Este paquete NO incluye claves. Si algún día usas The Odds API, copia .env.example como .env y pon
+    tu clave allí (nunca la compartas).
+
+DÓNDE ESTÁ CADA COSA
+  README.md            guía técnica completa
+  docs/                planes, licencias de datos, reportes de las pruebas (docs/reports/)
+  assets/, index.html  la app (navegador) · server.js y lib/  el servidor y los modelos
+  tests/, tools/       pruebas, auditorías y herramientas
